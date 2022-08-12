@@ -36,9 +36,12 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.content img {
+  display: flex;
+}
+
 img {
   width: 600px;
-  display: flex;
 }
 
 button {
@@ -54,4 +57,28 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.footer {
+  clear: both;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  background-color: #eee;
+  justify-content: space-between;
+}
+
+.footer .left-links {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.footer .right-links {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  text-align: center;
+  padding: 0px 40px 0px 40px;
 }
